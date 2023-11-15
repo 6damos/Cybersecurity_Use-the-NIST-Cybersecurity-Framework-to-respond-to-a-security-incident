@@ -1,4 +1,4 @@
-Incident report analysis
+# Incident report analysis
 
 Summary	Network traffic suddenly stopped during normal operations and no network services could be accessed. The incident management team uncovered a flood of ICMP packets congesting the network. They concluded a DDoS attack prevented the network from responding to any other request halting all network traffic and that this was possible because the firewall was unconfigured. The team blocked the incoming packets and any services that were not crucial to normal operations so that critical network services could be restored.
 Identify	When the network services stopped responding, the security team analyzed the network logs and observed a flood of ICMP packets congesting the network. This DDOS prevented the network from responding to any other request halting the network.
